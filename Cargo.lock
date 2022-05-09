@@ -95,17 +95,17 @@ dependencies = [
 
 [[package]]
 name = "async-bincode"
-version = "0.5.1"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d8b49557304ed7f7258762bff2c2ea09c041f0da32005770fed28cf5d2cf96be"
+checksum = "e5601906cc87c2177c9a90617e66769aca8b334a4cd8111e951bf6afd84ba5cc"
 dependencies = [
  "bincode",
  "byteorder",
- "bytes 0.5.6",
+ "bytes 1.1.0",
  "futures-core",
  "futures-sink",
  "serde",
- "tokio 0.2.25",
+ "tokio 1.12.0",
 ]
 
 [[package]]
